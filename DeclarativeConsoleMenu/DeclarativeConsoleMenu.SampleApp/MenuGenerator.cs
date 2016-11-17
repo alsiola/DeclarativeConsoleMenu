@@ -19,17 +19,20 @@ namespace DeclarativeConsoleMenu.SampleApp
                 Menus = {
                     new Menu()
                     {
+                        // give the menu an identifier
                         MenuId = 1,
                         MenuItems =
                         {
                             new MenuItem()
                             {
                                 Text = "Open Sub Menu",
+                                // if you want to link to another menu, then set the other menu's id
                                 SubMenuId = 2
                             },
                             new MenuItem()
                             {
                                 Text = "Print hello world!",
+                                //or if you want to perform an action, set the Action property
                                 Action = () => Console.WriteLine("Hello World!")
                             }
                         }
