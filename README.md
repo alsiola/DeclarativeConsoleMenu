@@ -4,6 +4,8 @@ A simple and declarative way of building console menus of any depth and complexi
 
 A simple class library to easily build complex console menus in a declarative fashion.
 
+Available from [nuget](https://www.nuget.org/packages/DeclarativeConsoleMenu/) as DeclarativeConsoleMenu
+
 # Usage
 ```c#
 class MenuGenerator
